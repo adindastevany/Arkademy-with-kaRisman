@@ -1,0 +1,23 @@
+<script>
+    document.write(' Ini Output 1 :');
+    document.write("<br>");
+    for (let i = 1; i < 10; i++) {
+        document.write('*' . repeat(i) + "<br>");
+    }
+
+    document.write('Ini Output 2 :');
+    document.write("<br>");
+    for (let i = 9; i > 0; i--) {
+        document.write('*' . repeat(i) + "<br>")
+    }
+
+    document.write('Ini Output 3 :');
+    document.write("<br>");
+    let tinggi = 6;
+    for (let baris = 0; baris < tinggi; baris++) {
+        document.writeln('&nbsp;' .repeat((tinggi - baris)*1) + '*'.repeat(1 * baris) + '<br>');
+
+    
+    }
+
+</script>
